@@ -1,0 +1,172 @@
+{
+  "recycle1": {
+    "id": 1,
+    "name": "MP3",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/MP3.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle2": {
+    "id": 2,
+    "name": "Plastic Bottle",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/plastic_bottle.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle3": {
+    "id": 3,
+    "name": "Aluminum Can",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/can.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle4": {
+    "id": 4,
+    "name": "Newspaper",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/newspaper.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle5": {
+    "id": 5,
+    "name": "Needle",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/needle.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle6": {
+    "id": 6,
+    "name": "Paper",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/paper_food.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle7": {
+    "id": 7,
+    "name": "CD",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/CD.jpg"],
+    "size": "2268x2268"
+  },
+  "recycle8": {
+    "id": 8,
+    "name": "Paper Clip",
+    "category": "Recycle",
+    "images": ["/img/recycle_items/clip.jpg"],
+    "size": "2268x2268"
+  },
+
+  "landfill1": {
+    "id": 9,
+    "name": "Ceramic Bowl",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/ceramic.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill2": {
+    "id": 10,
+    "name": "Cigarette Butt",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/cig.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill3": {
+    "id": 11,
+    "name": "Used Cloth",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/cloth.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill4": {
+    "id": 12,
+    "name": "Coffee Cup",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/drink.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill5": {
+    "id": 13,
+    "name": "Matches",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/match.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill6": {
+    "id": 14,
+    "name": "Used Food Container",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/food_container.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill7": {
+    "id": 15,
+    "name": "Toothbrush",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/toothbrush.jpg"],
+    "size": "2268x2268"
+  },
+  "landfill8": {
+    "id": 16,
+    "name": "Plush Toy",
+    "category": "Landfill",
+    "images": ["/img/landfill_items/toy.jpg"],
+    "size": "2268x2268"
+  },
+  "compost1": {
+    "id": 17,
+    "name": "Cake",
+    "category": "Compost",
+    "images": ["/img/compost_items/cake.jpg"],
+    "size": "2268x2268"
+  },
+  "compost2": {
+    "id": 18,
+    "name": "Apple Core",
+    "category": "Compost",
+    "images": ["/img/compost_items/apple.jpg"],
+    "size": "2268x2268"
+  },
+  "compost3": {
+    "id": 19,
+    "name": "Leaves",
+    "category": "Compost",
+    "images": ["/img/compost_items/leaves.jpg"],
+    "size": "2268x2268"
+  },
+  "compost4": {
+    "id": 20,
+    "name": "Oreo",
+    "category": "Compost",
+    "images": ["/img/compost_items/oreo.jpg"],
+    "size": "2268x2268"
+  },
+  "compost5": {
+    "id": 21,
+    "name": "Sediment Coffee",
+    "category": "Compost",
+    "images": ["/img/compost_items/coffee.jpg"],
+    "size": "2268x2268"
+  },
+  "compost6": {
+    "id": 22,
+    "name": "Tea",
+    "category": "Compost",
+    "images": ["/img/compost_items/tea.jpg"],
+    "size": "2268x2268"
+  },
+  "compost7": {
+    "id": 23,
+    "name": "Toast",
+    "category": "Compost",
+    "images": ["/img/compost_items/toast.jpg"],
+    "size": "2268x2268"
+  },
+  "compost8": {
+    "id": 24,
+    "name": "Paper Napkin",
+    "category": "Compost",
+    "images": ["/img/compost_items/paper.jpg"],
+    "size": "2268x2268"
+  }
+
+}
