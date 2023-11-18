@@ -1,5 +1,4 @@
-import NavBarPC from './components/NavBar/NavBarPC.js';
-import NavBarMobile from './components/NavBar/NavBarMobile.js';
+import NavBar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Footer from './components/Footer.js';
 import EventSubscriptionForm from './components/EventSubscriptionForm.js';
@@ -13,9 +12,15 @@ export default function App(props) {
     return (
       <div>
         <Router>
+            <header>
+              <NavBar/>
+            </header>
           <Routes>
-  
+            <Route path="/Home" element={<Home/>} />
           </Routes>
+          <footer>
+            <Footer/>
+          </footer>
         </Router> 
       </div>
     );
