@@ -1,0 +1,749 @@
+{
+  "compost7": {
+    "id": 23,
+    "name": "Toast",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/toast.jpg",
+    "size": "2268x2268"
+  },
+  "recycle17": {
+    "id": 33,
+    "name": "Film Roll",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/film_roll.jpg",
+    "size": "2268x2268"
+  },
+  "recycle28": {
+    "id": 44,
+    "name": "Paper Bag",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/paper_bag.jpg",
+    "size": "2268x2268"
+  },
+  "compost4": {
+    "id": 20,
+    "name": "Oreo",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/oreo.jpg",
+    "size": "2268x2268"
+  },
+  "landfill8": {
+    "id": 16,
+    "name": "Plush Toy",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/toy.jpg",
+    "size": "2268x2268"
+  },
+  "compost5": {
+    "id": 21,
+    "name": "Coffee",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/coffee.jpg",
+    "size": "2268x2268"
+  },
+  "landfill5": {
+    "id": 13,
+    "name": "Matches",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/match.jpg",
+    "size": "2268x2268"
+  },
+  "landfill9": {
+    "id": 45,
+    "name": "Badminton Shuttlecock",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/badminton-shuttlecock.jpg",
+    "size": "2268x2268"
+  },
+  "recycle5": {
+    "id": 5,
+    "name": "Needle",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/needle.jpg",
+    "size": "2268x2268"
+  },
+  "landfill6": {
+    "id": 14,
+    "name": "Used Food Container",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/food_container.jpg",
+    "size": "2268x2268"
+  },
+  "recycle22": {
+    "id": 38,
+    "name": "Metal Clamp",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/metal_clamp.jpg",
+    "size": "2268x2268"
+  },
+  "recycle16": {
+    "id": 32,
+    "name": "Earring",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/earring.jpg",
+    "size": "2268x2268"
+  },
+  "landfill4": {
+    "id": 12,
+    "name": "Coffee Cup",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/drink.jpg",
+    "size": "2268x2268"
+  },
+  "recycle14": {
+    "id": 30,
+    "name": "Camera",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/camera.jpg",
+    "size": "2268x2268"
+  },
+  "compost13": {
+    "id": 66,
+    "name": "Cookie",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/cookie.jpg",
+    "size": "2268x2268"
+  },
+  "recycle11": {
+    "id": 27,
+    "name": "Book",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/book.jpg",
+    "size": "2268x2268"
+  },
+  "recycle27": {
+    "id": 43,
+    "name": "Origami Paper",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/origami_paper.jpg",
+    "size": "2268x2268"
+  },
+  "recycle9": {
+    "id": 25,
+    "name": "Plastic Bag",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/plastic_bag.jpg",
+    "size": "2268x2268"
+  },
+  "landfill22": {
+    "id": 58,
+    "name": "Q-tip",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/q-tip.jpg",
+    "size": "2268x2268"
+  },
+  "landfill1": {
+    "id": 9,
+    "name": "Ceramic Bowl",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/ceramic.jpg",
+    "size": "2268x2268"
+  },
+  "recycle23": {
+    "id": 39,
+    "name": "Metal Fork",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/metal_fork.jpg",
+    "size": "2268x2268"
+  },
+  "recycle24": {
+    "id": 40,
+    "name": "Milk Bottle",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/milk_bottle.jpg",
+    "size": "2268x2268"
+  },
+  "compost11": {
+    "id": 64,
+    "name": "Butter",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/butter.jpg",
+    "size": "2268x2268"
+  },
+  "landfill3": {
+    "id": 11,
+    "name": "Used Cloth",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/cloth.jpg",
+    "size": "2268x2268"
+  },
+  "compost25": {
+    "id": 78,
+    "name": "Raw Meat",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/raw_meat.jpg",
+    "size": "2268x2268"
+  },
+  "compost31": {
+    "id": 84,
+    "name": "Watermelon Peel",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/watermelon_peel.jpg",
+    "size": "2268x2268"
+  },
+  "landfill15": {
+    "id": 51,
+    "name": "Headphones",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/headphones.jpg",
+    "size": "2268x2268"
+  },
+  "landfill10": {
+    "id": 46,
+    "name": "Ballpoint Pen",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/ballpoint_pen.jpg",
+    "size": "2268x2268"
+  },
+  "compost15": {
+    "id": 68,
+    "name": "Eggplant",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/eggplant.jpg",
+    "size": "2268x2268"
+  },
+  "compost24": {
+    "id": 77,
+    "name": "Potato",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/potato.jpg",
+    "size": "2268x2268"
+  },
+  "compost27": {
+    "id": 80,
+    "name": "Shellfish",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/shellfish.jpg",
+    "size": "2268x2268"
+  },
+  "recycle1": {
+    "id": 1,
+    "name": "MP3",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/MP3.jpg",
+    "size": "2268x2268"
+  },
+  "landfill23": {
+    "id": 59,
+    "name": "Razor",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/razor.jpg",
+    "size": "2268x2268"
+  },
+  "compost21": {
+    "id": 74,
+    "name": "Orange Peel",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/orange_peel.jpg",
+    "size": "2268x2268"
+  },
+  "compost17": {
+    "id": 70,
+    "name": "Flower Bouquet",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/flower_bouquet.jpg",
+    "size": "2268x2268"
+  },
+  "landfill19": {
+    "id": 55,
+    "name": "Patch",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/patch.jpg",
+    "size": "2268x2268"
+  },
+  "landfill7": {
+    "id": 15,
+    "name": "Toothbrush",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/toothbrush.jpg",
+    "size": "2268x2268"
+  },
+  "compost19": {
+    "id": 72,
+    "name": "Gummy Bear",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/gummy_bear.jpg",
+    "size": "2268x2268"
+  },
+  "landfill2": {
+    "id": 10,
+    "name": "Cigarette Butt",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/cig.jpeg",
+    "size": "2268x2268"
+  },
+  "landfill20": {
+    "id": 56,
+    "name": "Pencil Case",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/pencil-case.jpg",
+    "size": "2268x2268"
+  },
+  "landfill25": {
+    "id": 61,
+    "name": "Yo-yo",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/yo-yo.jpg",
+    "size": "2268x2268"
+  },
+  "recycle26": {
+    "id": 42,
+    "name": "Nut",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/nut.jpg",
+    "size": "2268x2268"
+  },
+  "compost3": {
+    "id": 19,
+    "name": "Leaves",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/leaves.jpg",
+    "size": "2268x2268"
+  },
+  "landfill18": {
+    "id": 54,
+    "name": "Lipstick",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/lipstick.jpg",
+    "size": "2268x2268"
+  },
+  "landfill11": {
+    "id": 47,
+    "name": "Broken Wine Glass",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/broken_wine_glass.jpg",
+    "size": "2268x2268"
+  },
+  "compost16": {
+    "id": 69,
+    "name": "Eggshell",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/eggshell.jpg",
+    "size": "2268x2268"
+  },
+  "compost10": {
+    "id": 63,
+    "name": "Brocolli",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/brocolli.jpg",
+    "size": "2268x2268"
+  },
+  "compost26": {
+    "id": 79,
+    "name": "Seashell",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/seashell.jpg",
+    "size": "2268x2268"
+  },
+  "compost14": {
+    "id": 67,
+    "name": "Corn",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/corn.jpg",
+    "size": "2268x2268"
+  },
+  "compost29": {
+    "id": 82,
+    "name": "Sweet Potato",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/sweet_potato.jpg",
+    "size": "2268x2268"
+  },
+  "compost2": {
+    "id": 18,
+    "name": "Apple Core",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/apple.jpg",
+    "size": "2268x2268"
+  },
+  "compost9": {
+    "id": 62,
+    "name": "Avocado",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/avocado.jpg",
+    "size": "2268x2268"
+  },
+  "landfill24": {
+    "id": 60,
+    "name": "Tape",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/tape.jpg",
+    "size": "2268x2268"
+  },
+  "recycle7": {
+    "id": 7,
+    "name": "CD",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/CD.jpg",
+    "size": "2268x2268"
+  },
+  "recycle6": {
+    "id": 6,
+    "name": "Paper",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/paper.jpg",
+    "size": "2268x2268"
+  },
+  "recycle10": {
+    "id": 26,
+    "name": "Basketball",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/basketball.jpg",
+    "size": "2268x2268"
+  },
+  "recycle25": {
+    "id": 41,
+    "name": "Milk Carton",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/milk_carton.jpg",
+    "size": "2268x2268"
+  },
+  "compost1": {
+    "id": 17,
+    "name": "Cake",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/cake.jpg",
+    "size": "2268x2268"
+  },
+  "recycle15": {
+    "id": 31,
+    "name": "Clock",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/clock.jpg",
+    "size": "2268x2268"
+  },
+  "compost12": {
+    "id": 65,
+    "name": "Carrots",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/carrots.jpg",
+    "size": "2268x2268"
+  },
+  "landfill16": {
+    "id": 52,
+    "name": "Ice Cream",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/ice_cream.jpg",
+    "size": "2268x2268"
+  },
+  "landfill17": {
+    "id": 53,
+    "name": "Lighter",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/lighter.jpg",
+    "size": "2268x2268"
+  },
+  "compost6": {
+    "id": 22,
+    "name": "Tea",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/tea.jpg",
+    "size": "2268x2268"
+  },
+  "compost18": {
+    "id": 71,
+    "name": "Fried Chicken",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/fried_chicken.jpg",
+    "size": "2268x2268"
+  },
+  "compost23": {
+    "id": 76,
+    "name": "Pizza",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/pizza.jpg",
+    "size": "2268x2268"
+  },
+  "recycle3": {
+    "id": 3,
+    "name": "Aluminum Can",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/can.jpg",
+    "size": "2268x2268"
+  },
+  "compost20": {
+    "id": 73,
+    "name": "Mango",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/mango.jpg",
+    "size": "2268x2268"
+  },
+  "recycle8": {
+    "id": 8,
+    "name": "Paper Clip",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/clip.jpg",
+    "size": "2268x2268"
+  },
+  "landfill12": {
+    "id": 48,
+    "name": "Candle",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/candle.jpg",
+    "size": "2268x2268"
+  },
+  "recycle19": {
+    "id": 35,
+    "name": "Glasses",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/glasses.jpg",
+    "size": "2268x2268"
+  },
+  "recycle2": {
+    "id": 2,
+    "name": "Plastic Bottle",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/plastic_bottle.jpg",
+    "size": "2268x2268"
+  },
+  "landfill13": {
+    "id": 49,
+    "name": "Caution Sign",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/caution-sign.jpg",
+    "size": "2268x2268"
+  },
+  "compost30": {
+    "id": 83,
+    "name": "Tomato",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/tomato.jpg",
+    "size": "2268x2268"
+  },
+  "recycle12": {
+    "id": 28,
+    "name": "Bottle Cap",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/bottle_cap.jpg",
+    "size": "2268x2268"
+  },
+  "recycle4": {
+    "id": 4,
+    "name": "Newspaper",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/newspaper.jpg",
+    "size": "2268x2268"
+  },
+  "compost8": {
+    "id": 24,
+    "name": "Paper Napkin",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/paper_food.jpg",
+    "size": "2268x2268"
+  },
+  "landfill21": {
+    "id": 57,
+    "name": "Plastic Tape",
+    "Recycle": "false",
+    "Compost": "false",
+    "Landfill": "true",
+    "img": "/img/plastic-tape.jpg",
+    "size": "2268x2268"
+  },
+  "recycle13": {
+    "id": 29,
+    "name": "Brick",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/brick.jpg",
+    "size": "2268x2268"
+  },
+  "recycle20": {
+    "id": 36,
+    "name": "Knife",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/knife.jpg",
+    "size": "2268x2268"
+  },
+  "compost28": {
+    "id": 81,
+    "name": "Sunflower",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/sunflower.jpg",
+    "size": "2268x2268"
+  },
+  "compost22": {
+    "id": 75,
+    "name": "Peach",
+    "Recycle": "false",
+    "Compost": "true",
+    "Landfill": "false",
+    "img": "/img/peach.jpg",
+    "size": "2268x2268"
+  },
+  "recycle18": {
+    "id": 34,
+    "name": "Game Cards",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/game_cards.jpg",
+    "size": "2268x2268"
+  },
+  "recycle21": {
+    "id": 37,
+    "name": "Medicine Bottle",
+    "Recycle": "true",
+    "Compost": "false",
+    "Landfill": "false",
+    "img": "/img/medicine_bottle.jpg",
+    "size": "2268x2268"
+  }
+}
