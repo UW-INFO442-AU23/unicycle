@@ -15,6 +15,7 @@ export default function App(props) {
               <NavBar/>
             </header>
           <Routes>
+            <Route path="/" element={<Home/>} />
             <Route path="/Home" element={<Home/>} />
             <Route path="/GarbageBank" element={<GarbageBank garbages = {garbages}/>} />
           </Routes>
