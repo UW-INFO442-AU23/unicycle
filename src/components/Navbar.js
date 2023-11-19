@@ -5,18 +5,6 @@ import '../index.css';
 const toggleBar = document.getElementById('toggleBar');
 const slider = document.getElementById('slider');
 
-// toggleBar.addEventListener('click', () => {
-//     // Toggle the state
-//     const isOn = toggleBar.classList.toggle('on');
-
-//     // Move the slider based on the state
-//     if (isOn) {
-//         slider.style.transform = 'translateX(30px)';
-//     } else {
-//         slider.style.transform = 'translateX(0)';
-//     }
-// });
-
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
@@ -36,7 +24,6 @@ const Navbar = () => {
           <div className={`bar ${showNavbar ? 'open' : ''}`} />
           <div className={`bar ${showNavbar ? 'open' : ''}`} />
           <div className={`bar ${showNavbar ? 'open' : ''}`} />
-          {/* <div className={'languageSettings'}/> */}
         </div>
         <div className={`nav-elements ${showNavbar && 'active'}`}>
           <ul>
@@ -44,18 +31,18 @@ const Navbar = () => {
               <NavLink to="/Home">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/WasteBank">Waste Bank</NavLink>
+              <NavLink to="/GarbageBank">Garbage Bank</NavLink>
             </li>
             <li>
               <NavLink to="/EventSubscriptionForm">Join Us</NavLink>
             </li>
             <li>
-                <div class="language-toggle">
-                    <div class="label">EN</div>
-                    <div class="toggle-bar" id="toggleBar">
-                        <div class="slider" id="slider"></div>
+                <div className="language-toggle">
+                    <div className="label">EN</div>
+                    <div className="toggle-bar" id="toggleBar">
+                        <div className="slider" id="slider"></div>
                     </div>
-                    <div class="label">CN</div>
+                    <div className="label">CN</div>
                 </div>
                 <script src={toggleBar}></script>
             </li>

@@ -64,7 +64,7 @@
   },
   "landfill9": {
     "id": 45,
-    "name": "Badminton Shuttlecock",
+    "name": "Badminton Shuttle",
     "Recycle": "false",
     "Compost": "false",
     "Landfill": "true",
@@ -82,7 +82,7 @@
   },
   "landfill6": {
     "id": 14,
-    "name": "Used Food Container",
+    "name": "Food Container",
     "Recycle": "false",
     "Compost": "false",
     "Landfill": "true",
@@ -172,7 +172,7 @@
   },
   "landfill1": {
     "id": 9,
-    "name": "Ceramic Bowl",
+    "name": "Ceramic Product",
     "Recycle": "false",
     "Compost": "false",
     "Landfill": "true",
@@ -676,7 +676,7 @@
   },
   "compost8": {
     "id": 24,
-    "name": "Paper Napkin",
+    "name": "Wrapping paper",
     "Recycle": "false",
     "Compost": "true",
     "Landfill": "false",
