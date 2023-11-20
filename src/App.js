@@ -17,7 +17,9 @@ export default function App(props) {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/Home" element={<Home/>} />
+            <Route path="/EventSubscriptionForm" element={<EventSubscriptionForm />} />
             <Route path="/GarbageBank" element={<GarbageBank garbages = {garbages}/>} />
+            <Route path="*" element={<Navigate to={"/Home"}/>} />
           </Routes>
           <footer>
             <Footer/>

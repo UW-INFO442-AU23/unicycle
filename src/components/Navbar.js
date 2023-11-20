@@ -42,7 +42,7 @@ const Navbar = () => {
                     <div className="toggle-bar" id="toggleBar">
                         <div className="slider" id="slider"></div>
                     </div>
-                    <div className="label">CN</div>
+                    <div className="label">中文</div>
                 </div>
                 <script src={toggleBar}></script>
             </li>
