@@ -1,0 +1,129 @@
+{
+    "home": {
+        "welcome-title": "Welcome to UNiCycle!",
+        "welcome-subtitle": "Where we help you with waste management and make world a better place",
+        "img-alt": "waste management",
+        "mission-title": "Our Mission",
+        "mission-content": "Our mission is to empower international students at the University of Washington with practical waste management knowledge. We strive to create awareness and provide resources that encourage students to classify waste properly. Through education and engagement, we aim to foster a community of environmentally conscious individuals who contribute to sustainable practices and make a positive impact on our campus and beyond.",
+        "know": {
+            "title": "What we should know",
+            "thing1": "Rapid Increase in Material Production and Waste:",
+            "detail1": "As the global population and economy grow, the production of materials like plastics, paper, and aluminum has significantly increased. Without proper waste management, this leads to a considerable rise in mismanaged waste, polluting ecosystems like rivers, lakes, and the ocean.",
+            "thing2": "Staggering Plastic Pollution in Oceans:",
+            "detail2": "An estimated 75 to 199 million tons of plastic waste currently reside in our oceans, with an additional 33 billion pounds of plastic entering the marine environment annually. This overwhelming amount of plastic, which includes the vast Great Pacific Garbage Patch, is too much for the existing waste management and recycling infrastructure to handle.",
+            "thing3": "Exponential Growth of Plastic Production:",
+            "detail3": "Since its inception in the early 20th century, plastic production has skyrocketed, from 2 million tonnes per year in 1950 to 460 million metric tons in 2019. A total of 9.5 billion metric tons of plastic were produced from 1950 to 2019, with about 7 billion metric tons becoming waste, half of which are single-use products.",
+            "thing4": "Impact on Marine Life:",
+            "detail4": "It is estimated that over 1 million marine animals, including sea turtles, die each year due to plastic pollution in the ocean. The majority of the victims are seabirds, with marine mammals also significantly affected but less visible in media reports.",
+            "img-alt1": "garbageSituation",
+            "img-alt2": "garbageSituationTwo"
+        },
+        "learn": {
+            "title": "What we should learn",
+            "content": "According to UW disposal guiline, there are three main types of waste: ",
+            "important": "recycle, compost, and landfill",
+            "img-alt": "typesOfGarbage",
+            "video-desc": "Let's see how different waste are categorized and processed after we dispose them."
+        },
+        "do": {
+            "title": "What we should do",
+            "thing1": "Learn the Knowledge",     
+            "detail1": "Learn the urgent situation of global environmental health and the garbage disposal guideline of King County.",
+            "img-alt1": "Learning Icon",
+            "thing2": "Dispose in the Right Way",
+            "detail2": "Categorize the garbage before desposing and dispose the garbage into the correct bin with the help of Waste Bank.",
+            "img-alt2": "Garbage Icon",
+            "thing3": "Contribute to Community",
+            "detail3": "Join us to do community activity focused on environmental initiatives to contribute to the world around us.",
+            "img-alt3": "Community Icon"
+        }
+    },
+    "submit": {
+        "firstname": "First name is required",
+        "lastname": "Last name is required",
+        "gender": "Gender selection is required",
+        "age": "Age is required",
+        "phone": "Phone number is required",
+        "phone-sub": "Phone number must be 10 digits",
+        "comment": "Comment is required",
+        "email": "Email is required",
+        "email-sub": "Email is not valid",
+        "custom": {
+            "aria-label": "close button",
+            "close": "Close"
+        },
+        "container": {
+            "title": "UW Community Event Sign-up",
+            "lead": "Please leave your personal information so that we can send you relevant updates on the UW Community Event of waste management in the future.",
+            "part-info": "Participant Information",
+            "firstname": "First name",
+            "lastname": "Last name",
+            "gender": {
+                "title": "Gender",
+                "option": "Choose...",
+                "item1": "Male",
+                "item2": "Female",
+                "item3": "Non-binary",
+                "item4": "Genderqueer/Genderfluid",
+                "item5": "Prefer Not To Tell"
+            },
+            "age": "Age",
+            "email": "Email",
+            "area-code": "Area Code",
+            "phone": "Phone Number",
+            "form-comment": {
+                "label": "What part of waste management are you most interested in?",
+                "aria-label": "form comment"
+            },
+            "add-comment": {
+                "label": "Tell us about your previous activity experience (optional)",
+                "aria-label": "addditional comment"
+            },
+            "submit-btn": {
+                "content": "Submit Form",
+                "aria-label": "submit button",
+                "msg": "Form Submitted Successfully"
+            }
+        }
+    },
+    "garbage-bank": {
+        "recycle": "Recycle",
+        "compost": "Compost",
+        "landfill": "Landfill",
+        "uncategorized": "Uncategorized",
+        "title": "Garbage Bank",
+        "detail": "Use the search and filters below to find information on proper disposal methods for different items.",
+        "search-box": {
+            "placeholder": "Search for specific item...",
+            "aria-label": "Search for specific item"
+        },
+        "filter-box": {
+            "title": "Disposal Guide:",
+            "item1": "All",
+            "aria-label1": "Don't filter",
+            "item2": "Recycle",
+            "aria-label2": "Filter by Recycle",
+            "item3": "Compost",
+            "aria-label3": "Filter by Compost",
+            "item4": "Landfill",
+            "aria-label4": "Filter by Landfill"
+        },
+        "not-found": "No results found."
+    },
+    "nav-bar": {
+        "home": "Home",
+        "bank": "Garbage Bank",
+        "join-us": "Join Us",
+        "language": "Language",
+        "link": {
+            "home": "Go to Home",
+            "bank": "Go to Garbage Bank",
+            "join-us": "Go to Join us"
+        }
+    },
+    "footer": {
+        "title": "Contact us",
+        "email-aria-label": "Send an email to unicycle@uw.edu",
+        "phone-aria-label": "tel:206-123-1234"
+    }
+}

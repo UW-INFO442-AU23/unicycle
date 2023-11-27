@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function GarbageCard(props) {
+    const { t } = useTranslation();
     function getCategoryLabel(garbage) {
       if (garbage.Recycle === 'true') {
-        return 'Recycle';
+        return t('garbage-bank.recycle');
       } else if (garbage.Compost === 'true') {
-        return 'Compost';
+        return t('garbage-bank.compost');
       } else if (garbage.Landfill === 'true') {
-        return 'Landfill';
+        return t('garbage-bank.landfill');
       } else {
-        return 'Uncategorized';
+        return t('garbage-bank.uncategorized');
       }
     }
   
@@ -40,6 +42,7 @@ function GarbageCard(props) {
   }
 
 function GarbageBank(props) {
+  const { t } = useTranslation();
   const [filters, setFilters] = useState({
     Recycle: false,
     Compost: false,
@@ -80,42 +83,47 @@ function GarbageBank(props) {
 
   return (
     <div className="bank">
-      <h1>Garbage Bank</h1>
-      <h2>Use the search and filters below to find information on proper disposal methods for different items.</h2>
+      <h1>{t('garbage-bank.title')}</h1>
+      <h2>{t('garbage-bank.detail')}</h2>
       <section className="bank-content">
         <section id="search-box">
           <input
             type="text"
-            placeholder="Search for specific item..."
+            placeholder={t('garbage-bank.search-box.placeholder')}
             value={searchTerm}
+            aria-label={t('garbage-bank.search-box.aria-label')}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </section>
         <section id="filter-box">
-          <h4>Disposal Guide:</h4>
+          <h4>{t('garbage-bank.filter-box.title')}</h4>
           <button
             className={filters.All ? 'active' : ''}
             onClick={() => handleFilterChange('All')}
+            aria-label={t('garbage-bank.filter-box.aria-label1')}
           >
-            All
+            {t('garbage-bank.filter-box.item1')}
           </button>
           <button
             className={filters.Recycle ? 'active' : ''}
             onClick={() => handleFilterChange('Recycle')}
+            aria-label={t('garbage-bank.filter-box.aria-label2')}
           >
-            Recycle
+            {t('garbage-bank.filter-box.item2')}
           </button>
           <button
             className={filters.Compost ? 'active' : ''}
             onClick={() => handleFilterChange('Compost')}
+            aria-label={t('garbage-bank.filter-box.aria-label3')}
           >
-            Compost
+            {t('garbage-bank.filter-box.item3')}
           </button>
           <button
             className={filters.Landfill ? 'active' : ''}
             onClick={() => handleFilterChange('Landfill')}
+            aria-label={t('garbage-bank.filter-box.aria-label4')}
           >
-            Landfill
+            {t('garbage-bank.filter-box.item4')}
           </button>
         </section>
         <section className="GarbageCard-deck">
@@ -124,7 +132,7 @@ function GarbageBank(props) {
               <GarbageCard garbages={arrayItem} key={arrayItem.name} />
             ))
           ) : (
-            <p id="noResults">No results found.</p>
+            <p id="noResults">{t('garbage-bank.not-found')}</p>
           )}
         </section>
       </section>

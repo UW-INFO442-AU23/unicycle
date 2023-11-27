@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const EventSubscriptionForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -26,35 +28,35 @@ const EventSubscriptionForm = () => {
     e.preventDefault();
     const validationErrors = {};
     if (!formData.firstName.trim()) {
-      validationErrors.firstName = "First name is required";
+      validationErrors.firstName = t('submit.firstname');
     }
 
     if (!formData.lastName.trim()) {
-      validationErrors.lastName = "Last name is required";
+      validationErrors.lastName = t('submit.lastname');
     }
 
     if (!formData.gender.trim()) {
-      validationErrors.gender = "Gender selection is required";
+      validationErrors.gender = t('submit.gender');
     }
 
     if (!formData.age.trim()) {
-      validationErrors.age = "Age is required";
+      validationErrors.age = t('submit.age');
     }
 
     if (!formData.phone.trim()) {
-      validationErrors.phone = "Phone number is required";
+      validationErrors.phone = t('submit.phone');
     } else if (!/^\d{10}$/.test(formData.phone)) {
-      validationErrors.phone = "Phone number must be 10 digits";
+      validationErrors.phone = t('submit.phone-sub');
     }
 
     if (!formData.formComment.trim()) {
-      validationErrors.formComment = "Comment is required";
+      validationErrors.formComment = t('submit.comment');
     }
 
     if (!formData.email.trim()) {
-      validationErrors.email = "Email is required";
+      validationErrors.email = t('submit.email');
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      validationErrors.email = "Email is not valid";
+      validationErrors.email = t('submit.email-sub');
     }
 
     setErrors(validationErrors);
@@ -70,8 +72,8 @@ const EventSubscriptionForm = () => {
       <div className="custom-alert-overlay">
         <div className="custom-alert">
           <p>{message}</p>
-          <button aria-label="close button"className="close-btn" onClick={onClose}>
-            Close
+          <button aria-label={t('submit.custom.aria-label')} className="close-btn" onClick={onClose}>
+            {t('submit.custom.close')}
           </button>
         </div>
       </div>
@@ -85,17 +87,15 @@ const EventSubscriptionForm = () => {
           <main id="application">
             <section className="bg-color" style={{ fontSize: "1em" }}>
               <div className="container">
-                <h2>UW Community Event Sign-up</h2>
+                <h2>{t('submit.container.title')}</h2>
                 <p className="lead">
-                  Please leave your personal information so that we can send you
-                  relevant updates on the UW Community Event of waste management
-                  in the future.
+                  {t('submit.container.lead')}
                 </p>
 
-                <h3>Participant Information</h3>
+                <h3>{t('submit.container.part-info')}</h3>
                 <form>
                   <label htmlFor="firstName" className="form-label">
-                    First name
+                    {t('submit.container.firstname')}
                   </label>
                   <input
                     type="text"
@@ -106,7 +106,7 @@ const EventSubscriptionForm = () => {
                     autoComplete="given-name"
                     placeholder=""
                     name="firstName"
-                    aria-label="firstName"
+                    aria-label={t('submit.container.firstname')}
                     value={formData.firstName}
                     required
                     onChange={handleChange}
@@ -118,7 +118,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="lastName" className="form-label">
-                    Last name
+                  {t('submit.container.lastname')}
                   </label>
                   <input
                     type="text"
@@ -128,7 +128,7 @@ const EventSubscriptionForm = () => {
                     id="lastName"
                     placeholder=""
                     name="lastName"
-                    aria-label="lastName"
+                    aria-label={t('submit.container.lastname')}
                     value={formData.lastName}
                     required
                     onChange={handleChange}
@@ -138,7 +138,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="gender" className="form-label">
-                    Gender
+                    {t('submit.container.gender.title')}
                   </label>
                   <select
                     className={`form-select ${
@@ -146,18 +146,18 @@ const EventSubscriptionForm = () => {
                     }`}
                     id="gender"
                     name="gender"
-                    aria-label="gender"
+                    aria-label={t('submit.container.gender.title')}
                     value={formData.gender}
                     required
                     onChange={handleChange}
                   >
-                    <option value="">Choose...</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Non-binary">Non-binary</option>
-                    <option value="Genderqueer">Genderqueer/Genderfluid</option>
+                    <option value="">{t('submit.container.gender.option')}</option>
+                    <option value="Male">{t('submit.container.gender.item1')}</option>
+                    <option value="Female">{t('submit.container.gender.item2')}</option>
+                    <option value="Non-binary">{t('submit.container.gender.item3')}</option>
+                    <option value="Genderqueer">{t('submit.container.gender.item4')}</option>
                     <option value="Prefer Not To Tell">
-                      Prefer Not To Tell
+                      {t('submit.container.gender.item5')}
                     </option>
                   </select>
                   {errors.gender && (
@@ -165,7 +165,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="age" className="form-label">
-                    Age
+                    {t('submit.container.age')}
                   </label>
                   <input
                     type="text"
@@ -173,7 +173,7 @@ const EventSubscriptionForm = () => {
                     id="age"
                     name="age"
                     placeholder=""
-                    aria-label="age"
+                    aria-label={t('submit.container.age')}
                     value={formData.age}
                     required
                     onChange={handleChange}
@@ -183,7 +183,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="email" className="form-label">
-                    Email
+                    {t('submit.container.email')}
                   </label>
                   <input
                     type="email"
@@ -194,7 +194,7 @@ const EventSubscriptionForm = () => {
                     autoComplete="given-email"
                     placeholder="@example.com"
                     name="email"
-                    aria-label="email"
+                    aria-label={t('submit.container.email')}
                     value={formData.email}
                     required
                     onChange={handleChange}
@@ -204,7 +204,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="areaCode" className="form-label">
-                    Area Code
+                  {t('submit.container.area-code')}
                   </label>
                   <input
                     type="text"
@@ -214,7 +214,7 @@ const EventSubscriptionForm = () => {
                     id="areaCode"
                     name="areaCode"
                     value={formData.areaCode}
-                    aria-label="areaCode"
+                    aria-label={t('submit.container.area-code')}
                     readOnly // Makes the input read-only
                   />
                   {errors.areaCode && (
@@ -222,7 +222,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="phone" className="form-label">
-                    Phone Number
+                    {t('submit.container.phone')}
                   </label>
                   <input
                     type="text"
@@ -232,7 +232,7 @@ const EventSubscriptionForm = () => {
                     id="phone"
                     name="phone"
                     autoComplete="tel"
-                    aria-label="enter phone number"
+                    aria-label={t('submit.container.phone')}
                     placeholder="xxx-xxx-xxxx"
                     value={formData.phone}
                     required
@@ -243,7 +243,7 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="formComment" className="form-label">
-                    What part of waste management are you most interested in?
+                    {t('submit.container.form-comment.label')}
                   </label>
                   <textarea
                     className={`form-control ${
@@ -251,7 +251,7 @@ const EventSubscriptionForm = () => {
                     }`}
                     name="formComment"
                     id="formComment"
-                    aria-label="form comment"
+                    aria-label={t('submit.container.form-comment.aria-label')}
                     value={formData.formComment}
                     required
                     onChange={handleChange}
@@ -261,13 +261,13 @@ const EventSubscriptionForm = () => {
                   )}
 
                   <label htmlFor="addComment" className="form-label">
-                    Tell us about your previous activity experience (optional)
+                    {t('submit.container.add-comment.label')}
                   </label>
                   <textarea
                     className="form-control"
                     name="addComment"
                     id="addComment"
-                    aria-label="addditional comment"
+                    aria-label={t('submit.container.add-comment.aria-label')}
                     value={formData.addComment}
                     onChange={handleChange}
                   ></textarea>
@@ -276,16 +276,16 @@ const EventSubscriptionForm = () => {
                     <button
                       className="alert-button"
                       type="submit"
-                      aria-label="submit button"
+                      aria-label={t('submit.container.submit-btn.aria-label')}
                       onClick={handleSubmit}
                     >
-                      Submit Form
+                      {t('submit.container.submit-btn.content')}
                     </button>
                   </div>
 
                   {showAlert && (
                     <CustomAlert
-                      message="Form Submitted Successfully"
+                      message={t('submit.container.submit-btn.msg')}
                       onClose={() => setShowAlert(false)}
                     />
                   )}

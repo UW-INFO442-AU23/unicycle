@@ -111,6 +111,7 @@ body {
   padding-right: 0.5em;
   border-radius: 5px;
   margin: 2em;
+  height: 500px ;
 }
 
 .card-deck {
@@ -125,6 +126,10 @@ body {
   font-weight: bolder;
   font-size: 1.5em;
   color: #41613e;
+}
+
+.card-title:hover {
+  color: #69ae63;
 }
 
 .card-img-top {
@@ -179,9 +184,12 @@ body {
 
 .nav-elements ul li {
   margin-left: 40px;
+  height: 100;
+  display: flex;
 }
 
 .nav-elements ul a {
+  padding: 5px;
   font-size: 15px;
   font-weight: 400;
   color: #2f234f;
@@ -715,4 +723,78 @@ textarea {
   h3 {
     font-size: 1.25em;
   }
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: initial;
+}
+
+
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #2f234f;
+}
+
+.select-label {
+  margin-right: 10px;
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #fbfbfb;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.custom-select.open .options {
+  display: block;
+}
+
+.selected-option {
+  position: relative;
+  padding-right: 20px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  align-items: center;
+  background: #fff;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  padding: 5px;
+  display: none;
+}
+
+.option {
+  padding: 5px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
 }
