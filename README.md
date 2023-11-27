@@ -27,16 +27,16 @@ The insights from these articles underline the potential consequences of inadequ
 - A **Garbage Disposal Bank** page that empowers users with comprehensive information about waste classification with search and filter functions.
 - A page for **UW event sign-up** form that aims to empower users to engage in community-based waste management events.
 - An **Interactive navigation bar** that allows users to switch back and forth between different pages.
--  **Multilanguage toggle** that allows users to switch different languages.
+-  **Multilanguage Dropdown** that allows users to switch different languages.
 
 
 ## User Personas: 
-The two user personas we used when designing our product can be found here. （单独上传文件链接到GitHub中文件的部分, 不会的话见：https://code.visualstudio.com/docs/languages/markdown）示例：[here](https://github.com/UW-INFO442-SP23/breakfast-club/blob/main/NourishedKingsPersonas.pdf)
+The two user personas we used when designing our product can be found [here](https://github.com/UW-INFO442-AU23/unicycle/blob/main/Personas%20%26%20Testing%20Protocol/INFO%20442_User%20Persona.pdf).
 
 
 
-## Testing protocol（单独放一个名字叫做testing-protocol.md的文件里）
-Here is the testing protocol for our MVP. （单独上传文件链接到GitHub中文件的部分, 不会的话见：https://code.visualstudio.com/docs/languages/markdown）示例：[here](https://github.com/UW-INFO442-SP23/breakfast-club/blob/main/NourishedKingsPersonas.pdf)
+## Testing protocol
+[Here](https://github.com/UW-INFO442-AU23/unicycle/blob/main/Personas%20%26%20Testing%20Protocol/Testing_protocol.md) is the testing protocol for our MVP. 
 
 
 ## Development Instruction:
@@ -105,18 +105,19 @@ Here is the testing protocol for our MVP. （单独上传文件链接到GitHub�
     ```
 
 
-### Known Bug
+## Known Bug
 The issue displayed in the console when watching the Homepage video is related to cross-origin resource sharing (CORS) and is not a result of our codebase; it pertains to the external resources being accessed. Our application is verified bug-free in both desktop and mobile versions of Google Chrome as per our testing protocol, which includes a known bug identification and corresponding workarounds, ensuring compliance with the outlined requirements.
 
 
-### Additional Resources
+## Additional Resources
 
 - **ReactJS Documentation:** [React Official Website](https://reactjs.org/)
 - **Create React App Documentation:** [Create React App GitHub](https://github.com/facebook/create-react-app)
 - **Firebase Documentation:** [Firebase Official Website](https://firebase.google.com/)
+- **Reacti18:** [Reacti18 Website](https://react.i18next.com/)
 
 
-## References:
+## References
 
 All images and icons used in this project were retained from [Unsplash](https://unsplash.com), [flaticon](https://www.flaticon.com/) or retrived from Google Images with a free Creative Commons License. All videos used in this website was reatined from [Youtube](https://www.youtube.com/).
 
