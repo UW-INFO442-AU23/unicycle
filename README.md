@@ -1,11 +1,12 @@
 <h1 align="center"> UNiCycle </h1>
 <h2 align="center"><em> Where we help you with waste management and make world a better place</em></h2>
 
-- Published Site:   
+- Published Site: 
+https://unicycle-f1cf4.web.app/
 - GitHub Pages: https://github.com/UW-INFO442-AU23/unicycle
 
 
-## Group members:
+## Group Members:
 - Xinyu Chang
 - Yunjing Zhang
 - Wei Wang
@@ -27,7 +28,7 @@ The insights from these articles underline the potential consequences of inadequ
 - A **Garbage Disposal Bank** page that empowers users with comprehensive information about waste classification with search and filter functions.
 - A page for **UW event sign-up** form that aims to empower users to engage in community-based waste management events.
 - An **Interactive navigation bar** that allows users to switch back and forth between different pages.
--  **Multilanguage Dropdown** that allows users to switch different languages.
+- A **Multilanguage Dropdown** that allows users to switch different languages.
 
 
 ## User Personas: 
@@ -35,7 +36,7 @@ The two user personas we used when designing our product can be found [here](htt
 
 
 
-## Testing protocol
+## Testing Protocol:
 [Here](https://github.com/UW-INFO442-AU23/unicycle/blob/main/Personas%20%26%20Testing%20Protocol/Testing_protocol.md) is the testing protocol for our MVP. 
 
 
@@ -44,7 +45,6 @@ The two user personas we used when designing our product can be found [here](htt
 ### Built With:
 
 - **React JS:** A JavaScript library for building user interfaces.
-- **Bootstrap:** An open-source toolkit for developing with HTML, CSS, and JS.
 - **HTML/CSS/JavaScript:** Core technologies for building web pages.
 - **Firebase:** A comprehensive app development platform used for its real-time database, authentication, and hosting capabilities.
 - **i18next：** A powerful internationalization framework for JavaScript, i18next offers a comprehensive solution for managing translations and localization. It can be used in various JavaScript environments, including the browser, Node.js, and frameworks like React.
@@ -54,7 +54,7 @@ The two user personas we used when designing our product can be found [here](htt
 
 - **Firebase:** We're considering Firebase for its robust set of features such as real-time database, user authentication, and hosting services. It provides the infrastructure for saving user data in the "UW Community Events Subscription Form."
 
-### Environment Setup
+### Environment Setup:
 
 1. **Install all npm packages**
 
@@ -105,11 +105,7 @@ The two user personas we used when designing our product can be found [here](htt
     ```
 
 
-## Known Bug
-The issue displayed in the console when watching the Homepage video is related to cross-origin resource sharing (CORS) and is not a result of our codebase; it pertains to the external resources being accessed. Our application is verified bug-free in both desktop and mobile versions of Google Chrome as per our testing protocol, which includes a known bug identification and corresponding workarounds, ensuring compliance with the outlined requirements.
-
-
-## Additional Resources
+## Additional Resources:
 
 - **ReactJS Documentation:** [React Official Website](https://reactjs.org/)
 - **Create React App Documentation:** [Create React App GitHub](https://github.com/facebook/create-react-app)
@@ -117,7 +113,7 @@ The issue displayed in the console when watching the Homepage video is related t
 - **Reacti18:** [Reacti18 Website](https://react.i18next.com/)
 
 
-## References
+## References:
 
 All images and icons used in this project were retained from [Unsplash](https://unsplash.com), [flaticon](https://www.flaticon.com/) or retrived from Google Images with a free Creative Commons License. All videos used in this website was reatined from [Youtube](https://www.youtube.com/).
 

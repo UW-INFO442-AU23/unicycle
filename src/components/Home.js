@@ -67,8 +67,10 @@
                 </div>
                 <h2 id="videoDesc">{t('home.learn.video-desc')}</h2>
                 <div className="guidelineVideo">
-                <iframe src="https://www.youtube.com/embed/1bJ5qJljiHM?si=RPeLw8BhyrUK9R3F" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                {/* <iframe src="https://www.youtube.com/embed/1bJ5qJljiHM?si=RPeLw8BhyrUK9R3F" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+                <iframe src="https://www.youtube.com/embed/1bJ5qJljiHM" title="YouTube video player"></iframe>
                 </div>
+                
                 <div className='sectionSeperate'>
                     <h1>{t('home.do.title')}</h1>
                 </div>
