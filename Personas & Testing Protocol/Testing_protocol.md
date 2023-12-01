@@ -110,3 +110,6 @@
   - Navigation links failing to direct to the correct pages or being non-functional.
   - The navigation bar not properly adjusting to different screen sizes or orientations, including issues with the hamburger menu on smartphones.
   - Insufficient keyboard navigation support or screen reader compatibility.
+
+## Known Bug
+The issue displayed in the console when watching the Homepage video is related to cross-origin resource sharing (CORS) and is not a result of our codebase; it pertains to the external resources being accessed. Our application is verified bug-free in both desktop and mobile versions of Google Chrome as per our testing protocol, which includes a known bug identification and corresponding workarounds, ensuring compliance with the outlined requirements.
